@@ -54,11 +54,51 @@ p {
    background-color: #888800;
 }
 
-@media (min-width: 767px) {
+@media (max-width: 767px) {
+    #ch-sect {
+       margin-bottom: 2%;
+       margin-top: 2%;
+    }
+
+    #beef-sect {
+       margin-bottom: 2%;
+       margin-top: 2%;
+    }
+    #su-sect {
+       margin-top: 2%;
+       margin-top: 2%;
+      }
+
 
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+    #ch-sect {
+       margin-left: 2%;
+       margin-right: 1%;
+       width: 47%;
+       float:left;
+       margin-bottom: 2%;
+    }
+
+    #beef-sect {
+      margin-left: 1%;
+      margin-right: 2%;
+      width: 47%;
+      float: left;
+      margin-bottom: 2%;
+    }
+    #su-sect {
+      margin-left: 2%;
+      margin-right: 2%;
+      width: 96%;
+      clear: left;
+      margin-top: 2%;
+      }
+    #sushi-p {
+      margin-top: 2%;
+    }
 
 }
 
@@ -67,6 +107,7 @@ p {
   	width: 32%;
     float: left;
     margin: 1%;
+    padding-top: 2%;
     } 
 
     #ch-sect {
